@@ -1,1 +1,4 @@
-
+- Teste com CPF inválido
+- Teste com campos vazios
+- Teste com refresh durante cadastro
+- Teste com múltiplos cliques
