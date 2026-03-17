@@ -1,7 +1,7 @@
 BUG-001
 
 Título:
-CPF inválido sendo aceito no cadastro
+Email inválido sendo aceito no cadastro
 
 Severidade:
 Alta
