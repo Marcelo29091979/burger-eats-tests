@@ -1,11 +1,11 @@
 BUG-01
 
 Título:
-Campo CPF aceita menos de 11 dígitos
+Campo Email aceita endereço incompleto
 
 Passos:
 1 acessar tela cadastro
-2 inserir CPF com 5 números
+2 inserir Email sem o ".br" 
 3 enviar formulário
 
 Resultado esperado:
