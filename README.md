@@ -1,20 +1,31 @@
-# burger-eats-tests
-Projeto de Testes Manuais - Burger Eats
+# 🧪 Projeto de Testes Manuais - Burger Eats
 
-Objetivo
-Executar testes manuais baseados nos requisitos fornecidos.
+## 📌 Objetivo
+Executar testes manuais baseados em requisitos funcionais de uma aplicação web de cadastro de entregadores.
 
-Escopo
-Tela inicial
-Cadastro de entregadores
+## 🔍 Escopo
+- Tela inicial
+- Cadastro de entregadores
 
-Técnicas utilizadas
-BDD com Gherkin
-Casos de teste manuais
-Matriz de rastreabilidade
-Reporte de bugs
+## 🧠 Técnicas utilizadas
+- Testes manuais
+- Testes exploratórios
+- Testes negativos
+- BDD (Gherkin)
 
-Ferramentas
-Git
-GitHub
-Markdown
+## 🛠 Ferramentas
+- Git
+- GitHub
+- Markdown
+
+## 📂 Estrutura do projeto
+- features → cenários Gherkin
+- test-cases → casos de teste
+- bug-report → bugs encontrados
+- evidencias → prints
+
+## 🐞 Bugs encontrados
+(quantidade)
+
+## 🚀 Resultado
+Projeto desenvolvido para prática de QA manual com foco em entrada no mercado.
