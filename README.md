@@ -25,7 +25,7 @@ Executar testes manuais baseados em requisitos funcionais de uma aplicação web
 - evidencias → prints
 
 ## 🐞 Bugs encontrados
-(quantidade)
+(Um)
 
 ## 🚀 Resultado
 Projeto desenvolvido para prática de QA manual com foco em entrada no mercado.
