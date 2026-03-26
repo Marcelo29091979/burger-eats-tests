@@ -1,5 +1,19 @@
-ID	Caso de Teste	Passos	Resultado Esperado
-CT01	Verificar logo	Acessar página inicial	Logo visível
-CT02	Verificar texto principal	Acessar página	Texto exibido
-CT03	Verificar botão cadastro	Acessar página	Botão verde visível
-CT04	Verificar imagem	Acessar página	Imagem exibida
+ID: CT01  
+Título: Validar carregamento da página inicial  
+Passos:
+1. Acessar o site
+Resultado esperado:
+A página deve carregar corretamente sem erros
+
+ID: CT02  
+Título: Validar elementos da página inicial  
+
+Passos:
+1. Acessar o site  
+
+Resultado esperado:
+- Logo visível  
+- Texto principal exibido  
+- Botão de cadastro visível  
+- Imagem do entregador visível
+
