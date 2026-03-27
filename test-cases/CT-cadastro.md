@@ -1,9 +1,9 @@
 ID  Caso  Passos  																												Resultado
 CT10  		Cadastro válido	Preencher todos os campos	Cadastro realizado  	Pass
 CT11			CPF inválido	Inserir CPF com menos de 11 dígitos	Exibir erro		Pass
-CT12			Email inválido	Inserir email incorreto	Exibir erro							Fail
-CT13			Campo obrigatório vazio	Deixar nome vazio	Exibir mensagem
-CT14			Buscar CEP	Inserir CEP válido	Preencher endereço
+CT12			Email inválido	Inserir email incorreto	Exibir erro							Pass
+CT13			Campo obrigatório vazio	Deixar nome vazio	Exibir mensagem       Pass
+CT14			Buscar CEP	Inserir CEP válido	Preencher endereço              Pass
 
 ID: CT10  
 Título: Realizar cadastro com dados válidos  
@@ -49,21 +49,15 @@ Sistema deve exibir mensagens de erro
 
 ID: CT14  
 Título: Validar preenchimento automático via CEP  
-
 Passos:
 1. Inserir CEP válido  
-
-Resultado esperado:
-Campos de endereço preenchidos automaticamente
+Resultado esperado: Campos de endereço preenchidos automaticamente
 
 ID: CT15  
 Título: Validar upload de imagem da CNH  
-
 Passos:
 1. Fazer upload de imagem válida  
-
-Resultado esperado:
-Imagem deve ser aceita
+Resultado esperado: Imagem deve ser aceita
 
 ID: CT16  
 Título: Validar comportamento ao clicar múltiplas vezes  
