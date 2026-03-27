@@ -29,3 +29,10 @@ Executar testes manuais baseados em requisitos funcionais de uma aplicação web
 
 ## 🚀 Resultado
 Projeto desenvolvido para prática de QA manual com foco em entrada no mercado.
+
+## 📊 Execução de Testes
+
+- Casos executados: 18  
+- Casos aprovados: X  
+- Casos reprovados: X  
+- Bugs encontrados: X  
