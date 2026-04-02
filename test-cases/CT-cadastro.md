@@ -225,8 +225,18 @@ Status: PASS
 ID: CT20  
 Título: Validar nome contendo números  
 
-Resultado esperado:
-Sistema deve rejeitar
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+
+Passos:
+1. Inserir Nome contendo números (123Tereza Marlene Alícia Nogueira)   
+2. Enviar formulário
+
+Dados de teste:
+Nome: 123Tereza Marlene Alícia Nogueira
+  
+Resultado esperado: Sistema deve rejeitar
+Resultado obtido:  Sistema permitiu o cadastro com o campo "Nome" contendo números
+Status: FAIL
 
 ID: CT21  
 Título: Validar nome com 1 caractere  
