@@ -12,11 +12,18 @@ CT18      Validar CPF com mais de 11 dígitos                              Pass
 
 ID: CT10  
 Título: Realizar cadastro com dados válidos  
+Pré-condição: 
 Passos:
 1. Acessar cadastro  
 2. Preencher todos os campos obrigatórios com dados válidos  
-3. Enviar formulário  
-Resultado esperado: Cadastro realizado com sucesso
+3. Enviar formulário
+
+Dados de teste:  
+
+Resultado esperado: Cadastro realizado com sucesso 
+
+Resultado obtido: Sistema realizou o cadasto do usuário sem exibir mensagem de erro
+
 
 ID: CT11  
 Título: Validar CPF com menos de 11 dígitos  
