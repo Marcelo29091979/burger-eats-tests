@@ -50,9 +50,8 @@ Status: FAIL
 
 Evidência:
 
-../evidencias/screenshots/BUG-003.png
-
-../evidencias/screenshots/BUG-004.png
+![BUG-003](../evidencias/screenshots/BUG-003.png)
+![BUG-004](../evidencias/screenshots/BUG-004.png)
 
 
 BUG-003
@@ -75,6 +74,5 @@ Status: FAIL
 
 Evidência:
 
-../evidencias/screenshots/BUG-005.png
-
-../evidencias/screenshots/BUG-006.png
+![BUG-005](../evidencias/screenshots/BUG-005.png)
+![BUG-006](../evidencias/screenshots/BUG-006.png)
