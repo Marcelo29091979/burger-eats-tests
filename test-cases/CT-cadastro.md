@@ -163,14 +163,50 @@ Pass
 
 
 ID: CT17  
-Título: Validar CPF com caracteres alfabéticos  
+Título: Validar CPF com caracteres alfabéticos
+Pré-condição: 
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+
 Passos:
 1. Inserir CPF com letras  
 2. Enviar formulário  
-Resultado esperado: Sistema deve rejeitar o CPF
+
+Dados de teste:
+CPF: 057a7278710
+
+Resultado esperado: 
+Sistema deve rejeitar o CPF
+
+Resultado obtido:
+Sistema rejeitou envio de CPF com Caracteres Alfabéticos
+
+Status:
+Pass
+
 
 ID: CT18  
-Título: Validar CPF com mais de 11 dígitos  
+Título: Validar CPF com mais de 11 dígitos 
+
+Pré-condição:  
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+ 
+Passos:
+1. Acessar cadastro  
+2. Inserir CPF Com mais de 11 dígitos  
+3. Enviar  
+  
+Dados de teste:
+CPF: 057072787101
+  
+Resultado esperado:  
+Sistema deve exibir erro de validação
+Resultado obtido: 
+Sistema exibi erro de validação "Oops! CPF inválido"
+
+Status:
+Pass
+
+
 Resultado esperado: Sistema deve bloquear entrada inválida
 
 ID: CT19  
