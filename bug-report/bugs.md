@@ -49,5 +49,5 @@ Resultado atual: Cadastro é realizado normalmente
 Status: FAIL
 
 Evidência:
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\ct20-bug02apr26-1
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\ct20-bug02apr26-2
+C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-003
+C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-004
