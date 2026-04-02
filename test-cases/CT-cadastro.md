@@ -74,11 +74,30 @@ Pass
 
 ID: CT13  
 Título: Validar envio com campos obrigatórios vazios  
+Pré-condição: 
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
 
 Passos:
 1. Não preencher formulário  
 2. Clicar em enviar  
-Resultado esperado: Sistema deve exibir mensagens de erro
+
+Dados de teste:
+Nome: <Vazio>
+CPF: <Vazio>  
+Email: <Vazio> 
+CEP: <Vazio>  
+Número: <Vazio>  
+Método de entrega: <Vazio>  
+
+Resultado esperado: 
+Sistema deve exibir mensagens de erro
+
+Resultado obtido:
+Sistema não aceitou envio com campos obrigatórios vazios
+
+Status: 
+Pass
+
 
 ID: CT14  
 Título: Validar preenchimento automático via CEP  
