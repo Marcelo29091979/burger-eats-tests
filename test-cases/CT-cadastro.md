@@ -105,6 +105,7 @@ Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ati
 
 Passos:
 1. Inserir CEP válido
+2. Clicar em "Cadastre-se para fazer entregas"
 
 Dados de teste:
 CEP: 24921444
@@ -212,7 +213,7 @@ Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ati
 
 Passos:
 1. Inserir email sem o domíno   
-2. Enviar formulário    
+2. Clicar em "Cadastre-se para fazer entregas"   
 
 Dados de teste:
 Email: tereza.marlene.nogueira@
@@ -225,11 +226,12 @@ Status: PASS
 ID: CT20  
 Título: Validar nome contendo números  
 
-Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
 
 Passos:
-1. Inserir Nome contendo números (123Tereza Marlene Alícia Nogueira)   
-2. Enviar formulário
+1. Inserir Nome contendo números (123Tereza Marlene Alícia Nogueira)
+2. Preencher os demais campos corretamente  
+3. Clicar em "Cadastre-se para fazer entregas"
 
 Dados de teste:
 Nome: 123Tereza Marlene Alícia Nogueira
@@ -238,11 +240,28 @@ Resultado esperado: Sistema deve rejeitar
 Resultado obtido:  Sistema permitiu o cadastro com o campo "Nome" contendo números
 Status: FAIL
 
+
 ID: CT21  
 Título: Validar nome com 1 caractere  
 
-Resultado esperado:
-Sistema deve validar tamanho mínimo
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
+
+Passos:
+1. Inserir Nome contendo apenas um caractere (T)   
+2. Preencher os demais campos corretamente
+2. Clicar em "Cadastre-se para fazer entregas"
+  
+Dados de teste:
+Nome: T
+CPF:05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 24921444
+Celular: 21998430065  
+
+Resultado esperado: Sistema deve validar tamanho mínimo  
+Resultado obtido: Sistema permitiu cadastro com campo "Nome" com apenas um caractere 
+Status: FAIL
+
 
 ID: CT22  
 Título: Validar campo número não preenchido  
