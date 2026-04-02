@@ -49,6 +49,32 @@ Resultado atual: Cadastro é realizado normalmente
 Status: FAIL
 
 Evidência:
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-003
 
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-004
+C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-003.jpg
+
+C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-004.jpg
+
+
+BUG-003
+Título: Validar nome contendo apenas um caractere
+
+Severidade: Alta
+Prioridade: Alta
+
+Ambiente: Produção - Chrome
+
+Passos para reproduzir:
+1. Acessar o site
+2. Ir para cadastro
+3. Inserir nome contendo apenas um caractere, apenas letra 'T'
+4. Clicar em "Cadastre-se para fazer entregas"
+
+Resultado esperado: Sistema deve validar e impedir envio com caractere mínimo
+Resultado atual: Cadastro é realizado normalmente com apenas um caractere
+Status: FAIL
+
+Evidência:
+
+C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-005.jpg
+
+C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-006.jpg
