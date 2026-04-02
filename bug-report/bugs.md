@@ -49,6 +49,7 @@ Resultado atual: Cadastro é realizado normalmente
 Status: FAIL
 
 Evidência:
+
 C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-003.jpg
 
 C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-004.jpg
@@ -73,6 +74,7 @@ Resultado atual: Cadastro é realizado normalmente com apenas um caractere
 Status: FAIL
 
 Evidência:
+
 C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-005.jpg
 
 C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-006.jpg
