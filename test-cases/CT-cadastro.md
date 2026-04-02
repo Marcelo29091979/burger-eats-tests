@@ -207,12 +207,20 @@ Pass
 
 ID: CT19  
 Título: Validar email sem domínio  
+Pré-condição:  
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
 
-Exemplo:
-teste@  
+Passos:
+1. Inserir email sem o domíno   
+2. Enviar formulário    
 
-Resultado esperado:
-Sistema deve exibir erro
+Dados de teste:
+Email: tereza.marlene.nogueira@
+
+Resultado esperado:  Sistema deve exibir erro
+Resultado obtido:  Sistema bloqueou entrada inválida com mensagem "insira uma parte depois de @"
+Status: PASS
+
 
 ID: CT20  
 Título: Validar nome contendo números  
