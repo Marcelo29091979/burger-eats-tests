@@ -12,37 +12,69 @@ CT18      Validar CPF com mais de 11 dígitos                              Pass
 
 ID: CT10  
 Título: Realizar cadastro com dados válidos  
-Pré-condição: 
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
 Passos:
 1. Acessar cadastro  
 2. Preencher todos os campos obrigatórios com dados válidos  
 3. Enviar formulário
 
-Dados de teste:  
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira  
+CPF: 05707278710  
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br  
+CEP: 24921444  
+Número: 346  
+Método de entrega: Moto  
 
 Resultado esperado: Cadastro realizado com sucesso 
-
 Resultado obtido: Sistema realizou o cadasto do usuário sem exibir mensagem de erro
 
 
 ID: CT11  
 Título: Validar CPF com menos de 11 dígitos  
+Pré-condição: 
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+
+Dados de teste:
+CPF: 0570727871 
+
 Passos:
 1. Acessar cadastro  
 2. Inserir CPF inválido  
 3. Enviar  
 
-Resultado esperado: Sistema deve exibir erro de validação
+Resultado esperado: 
+Sistema deve exibir erro de validação
+Resultado obtido:
+Sistema não aceitou CPF inválido e retornou mensagem de erro "Oops! CPF inválido"
+
+Status: Pass
+
 
 ID: CT12  
-Título: Validar formato de email inválido  
+Título: Validar formato de email inválido 
+
+Pré-condição:
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+Dados de teste:
+Email: tereza.marlene.nogueiragrupoaguaviva.com.br
+
 Passos:
 1. Inserir email sem “@”  
-2. Enviar  
-Resultado esperado: Sistema deve impedir envio
+2. Enviar
+   
+Resultado esperado:
+Sistema deve impedir envio
+Resultado obtido:
+Sistema impediu envio do email sem "@"
+
+Status:
+Pass
+
 
 ID: CT13  
 Título: Validar envio com campos obrigatórios vazios  
+
 Passos:
 1. Não preencher formulário  
 2. Clicar em enviar  
