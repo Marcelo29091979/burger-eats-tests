@@ -199,15 +199,13 @@ Dados de teste:
 CPF: 057072787101
   
 Resultado esperado:  
-Sistema deve exibir erro de validação
+Sistema deve bloquear entrada inválida
 Resultado obtido: 
-Sistema exibi erro de validação "Oops! CPF inválido"
+Sistema exibi erro de validação de CPF "Oops! CPF inválido"
 
 Status:
 Pass
 
-
-Resultado esperado: Sistema deve bloquear entrada inválida
 
 ID: CT19  
 Título: Validar email sem domínio  
