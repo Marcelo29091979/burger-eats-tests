@@ -100,25 +100,67 @@ Pass
 
 
 ID: CT14  
-Título: Validar preenchimento automático via CEP  
+Título: Validar preenchimento automático via CEP 
+
+Pré-condição: 
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+
 Passos:
-1. Inserir CEP válido  
-Resultado esperado: Campos de endereço preenchidos automaticamente
+1. Inserir CEP válido
+
+Dados de teste:
+CEP: 24921444
+
+Resultado esperado: 
+Campos de endereço preenchidos automaticamente
+
+Resultado obtido: 
+Sistema preencheu automaticamente os dados do endereço com base no CEP informado
+
+Status:
+Pass
+
 
 ID: CT15  
 Título: Validar upload de imagem da CNH  
+Pré-condição:
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
 Passos:
-1. Fazer upload de imagem válida  
-Resultado esperado: Imagem deve ser aceita
+1. Fazer upload de imagem válida
+
+Dados de teste:
+Imagem da CNH do Usuário contida no explorador de arquivos do mesmo
+
+Resultado esperado: 
+Imagem deve ser aceita
+
+Resultado obtido:
+Imagem aceita e carregada com sucesso
+
+Status: 
+Pass
+
 
 ID: CT16  
 Título: Validar comportamento ao clicar múltiplas vezes  
+Pré-condição:
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
 
 Passos:
 1. Clicar várias vezes no botão enviar  
 
+Dados de teste:
+Cliques múltiplos no botão "Enviar"
+
 Resultado esperado:
 Sistema não deve duplicar cadastro
+  
+Resultado obtido:
+Sistema não duplicou o cadastro
+
+Status:
+Pass
+
 
 ID: CT17  
 Título: Validar CPF com caracteres alfabéticos  
