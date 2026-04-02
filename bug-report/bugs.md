@@ -29,21 +29,11 @@ Evidência:
 <img width="1356" height="727" alt="evd02" src="https://github.com/user-attachments/assets/8415c9ba-a166-44ab-a705-d8038176835a" />
 
 BUG-002
-ID: CT20  
-Título: Validar nome contendo números  
-Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
-Passos:
-1. Inserir Nome contendo números (123Tereza Marlene Alícia Nogueira)   
-2. Enviar formulário
-Dados de teste:
-Nome: 123Tereza Marlene Alícia Nogueira
-Resultado esperado: Sistema deve rejeitar
-Resultado obtido:  Sistema permitiu o cadastro com o campo "Nome" contendo números
-Status: FAIL
-Título:
-Nome com caracteres numéricos sendo aceito no cadastro
+
+Título: Validar nome contendo números
 
 Severidade: Alta
+
 Prioridade: Alta
 
 Ambiente: Produção - Chrome
