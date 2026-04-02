@@ -50,9 +50,9 @@ Status: FAIL
 
 Evidência:
 
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-003.jpg
+evidencias\screenshots\BUG-003.jpg
 
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-004.jpg
+evidencias\screenshots\BUG-004.jpg
 
 
 BUG-003
@@ -75,6 +75,6 @@ Status: FAIL
 
 Evidência:
 
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-005.jpg
+evidencias\screenshots\BUG-005.jpg
 
-C:\Users\admin\burger-eats-tests\evidencias\screenshots\BUG-006.jpg
+evidencias\screenshots\BUG-006.jpg
