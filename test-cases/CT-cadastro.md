@@ -32,44 +32,42 @@ Resultado obtido: Sistema realizou o cadasto do usuário sem exibir mensagem de 
 
 ID: CT11  
 Título: Validar CPF com menos de 11 dígitos  
-Pré-condição: 
-Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa  
+
+1. Preencher o campo CPF com "0570727871"  
+2. Preencher os demais campos com dados válidos  
+3. Clicar no botão "Cadastre-se"
 
 Dados de teste:
-CPF: 0570727871 
+Nome: Tereza Marlene Alícia Nogueira  
+CPF: 0570727871  
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
 
-Passos:
-1. Acessar cadastro  
-2. Inserir CPF inválido  
-3. Enviar  
-
-Resultado esperado: 
-Sistema deve exibir erro de validação
-Resultado obtido:
-Sistema não aceitou CPF inválido e retornou mensagem de erro "Oops! CPF inválido"
+Resultado esperado: Sistema deve exibir erro de validação
+Resultado obtido: Sistema não aceitou CPF inválido e retornou mensagem de erro "Oops! CPF inválido"
 
 Status: Pass
-
 
 ID: CT12  
 Título: Validar formato de email inválido 
 
 Pré-condição:
-Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa à internet
+Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
+
 Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
 Email: tereza.marlene.nogueiragrupoaguaviva.com.br
 
 Passos:
-1. Inserir email sem “@”  
-2. Enviar
+1. Preencher o campo Email com "tereza.marlene.nogueiragrupoaguaviva.com.br"  
+2. Preencher os demais campos com dados válidos  
+3. Clicar no botão "Cadastre-se"
    
-Resultado esperado:
-Sistema deve impedir envio
-Resultado obtido:
-Sistema impediu envio do email sem "@"
+Resultado esperado: Sistema deve impedir envio
+Resultado obtido: Sistema não aceitou o envio do email sem "@" e impediu o cadastro
 
-Status:
-Pass
+Status: PASS
 
 
 ID: CT13  
