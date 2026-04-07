@@ -76,3 +76,7 @@ Evidência:
 
 ![BUG-005](../evidencias/screenshots/BUG-005.png)
 ![BUG-006](../evidencias/screenshots/BUG-006.png)
+
+
+BUG-004
+
