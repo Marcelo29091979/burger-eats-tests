@@ -81,10 +81,7 @@ Evidência:
 BUG-004
 Título: Validar campo número não preenchido
 
-Severidade: Alta
-Prioridade: Alta
-
-Ambiente: Produção - Chrome
+C
 
 Passos:
 
@@ -100,3 +97,35 @@ Evidência:
 ![BUG-007](../evidencias/screenshots/BUG-007.png)
 ![BUG-008](../evidencias/screenshots/BUG-008.png)
 
+
+BUG-005
+Título: Validar CEP inexistente  
+
+Severidade: Alta
+Prioridade: Alta
+
+Ambiente: Produção - Chrome
+
+Passos:
+1. Preencher campo "CEP" com número inexistente   
+2. Preencher os demais campos corretamente
+2. Clicar em "Cadastre-se para fazer entregas"
+   
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 012522-310
+Número: 346
+Celular: 21998430065
+  
+Resultado esperado: Sistema deve exibir erro
+Resultado obtido: Sistema registrou CEP como "Undfefined" mas permitiu cadastro com CEP inexistente
+
+Status: FAIL
+
+Evidência:
+
+![BUG-009](../evidencias/screenshots/BUG-009.png)
+![BUG-010](../evidencias/screenshots/BUG-010.png)
+![BUG-011](../evidencias/screenshots/BUG-011.png)
