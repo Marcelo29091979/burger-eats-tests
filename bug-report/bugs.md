@@ -79,4 +79,24 @@ Evidência:
 
 
 BUG-004
+Título: Validar campo número não preenchido
+
+Severidade: Alta
+Prioridade: Alta
+
+Ambiente: Produção - Chrome
+
+Passos:
+
+1. Deixar campo "Número" em branco
+2. Preencher os demais campos corretamente
+3. Clicar em "Cadastre-se para fazer entregas"
+
+Resultado esperado: Sistema deve exigir preenchimento 
+Resultado Atual: Sistema permitiu cadastro, mesmo com o campo "Número" não preenchido 
+Status: FAIL
+Evidência:
+
+![BUG-005](../evidencias/screenshots/BUG-007.png)
+![BUG-006](../evidencias/screenshots/BUG-008.png)
 
