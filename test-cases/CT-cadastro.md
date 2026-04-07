@@ -287,8 +287,26 @@ Status: FAIL
 ID: CT23  
 Título: Validar CEP inexistente  
 
-Resultado esperado:
-Sistema deve exibir erro
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
+
+Passos:
+1. Preencher campo "CEP" com número inexistente   
+2. Preencher os demais campos corretamente
+2. Clicar em "Cadastre-se para fazer entregas"
+   
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 012522-310
+Número: 346
+Celular: 21998430065
+  
+Resultado esperado: Sistema deve exibir erro
+Resultado obtido: Sistema registrou CEP como "Undfefined" mas permitiu cadastro com CEP inexistente
+
+Status: FAIL
+
 
 ID: CT24  
 Título: Validar CEP com caracteres inválidos  
