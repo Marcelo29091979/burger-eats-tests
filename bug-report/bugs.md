@@ -97,6 +97,6 @@ Resultado Atual: Sistema permitiu cadastro, mesmo com o campo "Número" não pre
 Status: FAIL
 Evidência:
 
-![BUG-005](../evidencias/screenshots/BUG-007.png)
-![BUG-006](../evidencias/screenshots/BUG-008.png)
+![BUG-007](../evidencias/screenshots/BUG-007.png)
+![BUG-008](../evidencias/screenshots/BUG-008.png)
 
