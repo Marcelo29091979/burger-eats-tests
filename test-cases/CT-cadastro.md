@@ -259,15 +259,30 @@ CEP: 24921444
 Celular: 21998430065  
 
 Resultado esperado: Sistema deve validar tamanho mínimo  
-Resultado obtido: Sistema permitiu cadastro com campo "Nome" com apenas um caractere 
+Resultado obtido: Sistema permitiu cadastro com campo "Nome" com apenas um caractere
 Status: FAIL
 
 
 ID: CT22  
 Título: Validar campo número não preenchido  
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
 
-Resultado esperado:
-Sistema deve exigir preenchimento
+Passos:
+1. Deixar campo "Número" em branco   
+2. Preencher os demais campos corretamente
+2. Clicar em "Cadastre-se para fazer entregas"
+   
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 24921444
+Número: "em Branco"
+Celular: 21998430065
+  
+Resultado esperado: Sistema deve exigir preenchimento
+Resultado obtido:  Sistema permitiu cadastro, mesmo com o campo "Número" não preenchido
+Status: FAIL
 
 ID: CT23  
 Título: Validar CEP inexistente  
