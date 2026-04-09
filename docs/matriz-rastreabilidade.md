@@ -18,3 +18,13 @@
 | RF14 | Navegação (botão voltar) | Baixa | CT31 | PASS | - |
 | RF15 | Exibição de mensagens de erro | Alta | CT32 | FAIL | BUG-008 |
 | RF16 | Tempo de resposta do sistema | Média | CT33 | PASS | - |
+
+## 📈 Cobertura de Testes
+
+Total de requisitos: 16  
+Requisitos testados: 16  
+Cobertura: 100%  
+
+Casos de teste executados: 33  
+Bugs encontrados: 8  
+
