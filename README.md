@@ -53,6 +53,8 @@ Projeto desenvolvido para prática de QA manual com foco em entrada no mercado.
 - Casos reprovados: 7  
 - Bugs encontrados: 7
 
+## 📊 Matriz de rastreabilidade disponível em docs/matriz-rastreabilidade.md
+
 ## 📌 Conclusão
 
 Durante os testes, foram identificadas falhas relacionadas à validação de dados, como CPF e email inválidos sendo aceitos pelo sistema.
