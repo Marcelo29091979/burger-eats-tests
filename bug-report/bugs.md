@@ -130,3 +130,38 @@ Evidência:
 ![BUG-010](../evidencias/screenshots/BUG-010.PNG)
 ![BUG-011](../evidencias/screenshots/BUG-011.PNG)
 
+BUG-006
+
+Título: Validar envio sem selecionar tipo de entrega  
+
+Severidade: Alta
+Prioridade: Alta
+
+Ambiente: Produção - Chrome
+
+Passos:
+1. Preencher os demais campos corretamente  
+2. Não selecionar nenhum "Método de Entrega"
+2. Clicar em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Não selecionar 
+
+Resultado esperado: Sistema deve bloquear envio
+
+Resultado obtido: Sistema permitiu o cadastro mesmo sem selecionar o método de entrega, apesar de emitir mensagem solicitando que seja selecionado o método de entrega
+
+Status: FAIL
+
+Evidência:
+
+![BUG-012](../evidencias/screenshots/BUG-012.PNG)
+![BUG-013](../evidencias/screenshots/BUG-013.PNG)
+
+
