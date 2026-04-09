@@ -463,7 +463,7 @@ Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro
 Passos:
 1. Preencher todos os campos corretamente  
 2. Clicar em "Cadastre-se para fazer entregas"
-3. Preencher novamente todos os campos corretamente
+3. Preencher novamente todos os campos com os mesmos dados
 4. Clicar novamente em "Cadastre-se para fazer entregas"
 
 Dados de teste:
