@@ -435,17 +435,52 @@ Status: PASS
 
 ID: CT29  
 Título: Validar comportamento ao atualizar página  
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
 
-Resultado esperado:
-Dados devem ser perdidos ou sistema tratar corretamente
+Passos:
+1. Preencher todos os campos corretamente  
+2. Clicar em "Recarregar esta página"
 
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: Imagem da CNH
 
+Resultado esperado: Dados devem ser perdidos ou sistema tratar corretamente
+Resultado obtido: O sistema apagou os dados do formulário de forma correta.
+
+Status: PASS
 
 ID: CT30  
 Título: Validar múltiplos envios  
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
 
-Resultado esperado:
-Sistema não deve duplicar cadastro
+Passos:
+1. Preencher todos os campos corretamente  
+2. Clicar em "Cadastre-se para fazer entregas"
+3. Preencher novamente todos os campos corretamente
+4. Clicar novamente em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: Imagem da CNH
+
+Resultado esperado: Sistema não deve duplicar cadastro
+Resultado obtido: Sistema permitiu múltiplos cadastro com os mesmos dados
+
+Status: FAIL
+
 
 
 ID: CT31  
