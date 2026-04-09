@@ -16,7 +16,7 @@
 | RF12 | Evitar múltiplos envios | Alta | CT16, CT30 | FAIL | BUG-007 |
 | RF13 | Comportamento ao atualizar página | Baixa | CT29 | PASS/FAIL | - |
 | RF14 | Navegação (botão voltar) | Baixa | CT31 | PASS | - |
-| RF15 | Exibição de mensagens de erro | Alta | CT32 | FAIL | BUG-008 |
+| RF15 | Exibição de mensagens de erro | Alta | CT32 | PASS | - |
 | RF16 | Tempo de resposta do sistema | Média | CT33 | PASS | - |
 
 ## 📈 Cobertura de Testes
@@ -26,5 +26,5 @@ Requisitos testados: 16
 Cobertura: 100%  
 
 Casos de teste executados: 33  
-Bugs encontrados: 8  
+Bugs encontrados: 7  
 
