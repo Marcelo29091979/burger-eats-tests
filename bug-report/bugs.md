@@ -81,7 +81,10 @@ Evidência:
 BUG-004
 Título: Validar campo número não preenchido
 
-C
+Severidade: Alta
+Prioridade: Alta
+
+Ambiente: Produção - Chrome
 
 Passos:
 
