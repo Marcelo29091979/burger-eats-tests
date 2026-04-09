@@ -165,3 +165,35 @@ Evidência:
 ![BUG-013](../evidencias/screenshots/BUG-013.PNG)
 
 
+BUG-007
+
+Título: Validar múltiplos envios  
+Severidade: Alta
+Prioridade: Alta
+
+Ambiente: Produção - Chrome
+
+Passos:
+1. Preencher todos os campos corretamente  
+2. Clicar em "Cadastre-se para fazer entregas"
+3. Preencher novamente todos os campos com os mesmo dados
+4. Clicar novamente em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: Imagem da CNH
+
+Resultado esperado: Sistema não deve duplicar cadastro
+Resultado obtido: Sistema permitiu múltiplos cadastro com os mesmos dados
+
+Status: FAIL
+
+Evidência:
+
+![BUG-015](../evidencias/screenshots/BUG-015.PNG)
