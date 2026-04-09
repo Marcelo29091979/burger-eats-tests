@@ -311,24 +311,76 @@ Status: FAIL
 ID: CT24  
 Título: Validar CEP com caracteres inválidos  
 
-Resultado esperado:
-Sistema deve rejeitar
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
 
+Passos:
+1. Preencher campo "CEP" com número inválido   
+2. Preencher os demais campos corretamente
+2. Clicar em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065  
+
+Resultado esperado:Sistema deve rejeitar
+
+Resultado obtido: Sistema rejeitou cadastro e emitiu mensagem "Informe um CEP válido"  
+
+Status: PASS
 
 
 ID: CT25  
 Título: Validar seleção de método de entrega  
 
-Resultado esperado:
-Usuário deve conseguir selecionar opção
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
+
+Passos:
+1. Preencher os demais campos corretamente  
+2. Selecionar o "Método de Entrega"
+2. Clicar em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto / Carro / Bicicleta
+
+Resultado esperado: Usuário deve conseguir selecionar opção
+
+Resultado obtido: Sistema permitiu seleção dos 3 métodos de entrega de forma simultânea
+Status: PASS
+
 
 ID: CT26  
 Título: Validar envio sem selecionar tipo de entrega  
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
 
-Resultado esperado:
-Sistema deve bloquear envio
+Passos:
+1. Preencher os demais campos corretamente  
+2. Não selecionar nenhum "Método de Entrega"
+2. Clicar em "Cadastre-se para fazer entregas"
 
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Não selecionar 
 
+Resultado esperado: Sistema deve bloquear envio
+
+Resultado obtido: Sistema permitiu o cadastro mesmo sem selecionar o método de entrega, apesar de emitir mensagem solicitando que seja selecionado o método de entrega
+
+Status: FAIL
 
 
 ID: CT27  
