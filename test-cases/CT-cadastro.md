@@ -28,7 +28,7 @@ Método de entrega: Moto
 
 Resultado esperado: Cadastro realizado com sucesso 
 Resultado obtido: Sistema realizou o cadasto do usuário sem exibir mensagem de erro
-
+Status: PASS
 
 ID: CT11  
 Título: Validar CPF com menos de 11 dígitos  
@@ -45,7 +45,6 @@ Email: tereza.marlene.nogueira@grupoaguaviva.com.br
 
 Resultado esperado: Sistema deve exibir erro de validação
 Resultado obtido: Sistema não aceitou CPF inválido e retornou mensagem de erro "Oops! CPF inválido"
-
 Status: Pass
 
 ID: CT12  
@@ -66,9 +65,7 @@ Passos:
    
 Resultado esperado: Sistema deve impedir envio
 Resultado obtido: Sistema não aceitou o envio do email sem "@" e impediu o cadastro
-
 Status: PASS
-
 
 ID: CT13  
 Título: Validar envio com campos obrigatórios vazios  
@@ -87,15 +84,10 @@ CEP: <Vazio>
 Número: <Vazio>  
 Método de entrega: <Vazio>  
 
-Resultado esperado: 
+Resultado esperado:
 Sistema deve exibir mensagens de erro
-
-Resultado obtido:
-Sistema não aceitou envio com campos obrigatórios vazios
-
-Status: 
-Pass
-
+Resultado obtido:Sistema não aceitou envio com campos obrigatórios vazios
+Status: Pass
 
 ID: CT14  
 Título: Validar preenchimento automático via CEP 
@@ -110,15 +102,9 @@ Passos:
 Dados de teste:
 CEP: 24921444
 
-Resultado esperado: 
-Campos de endereço preenchidos automaticamente
-
-Resultado obtido: 
-Sistema preencheu automaticamente os dados do endereço com base no CEP informado
-
-Status:
-Pass
-
+Resultado esperado: Campos de endereço preenchidos automaticamente
+Resultado obtido: Sistema preencheu automaticamente os dados do endereço com base no CEP informado
+Status:Pass
 
 ID: CT15  
 Título: Validar upload de imagem da CNH  
@@ -130,14 +116,10 @@ Passos:
 Dados de teste:
 Imagem da CNH do Usuário contida no explorador de arquivos do mesmo
 
-Resultado esperado: 
-Imagem deve ser aceita
+Resultado esperado: Imagem deve ser aceita
+Resultado obtido:Imagem aceita e carregada com sucesso
 
-Resultado obtido:
-Imagem aceita e carregada com sucesso
-
-Status: 
-Pass
+Status: Pass
 
 
 ID: CT16  
@@ -151,14 +133,9 @@ Passos:
 Dados de teste:
 Cliques múltiplos no botão "Enviar"
 
-Resultado esperado:
-Sistema não deve duplicar cadastro
-  
-Resultado obtido:
-Sistema não duplicou o cadastro
-
-Status:
-Pass
+Resultado esperado:Sistema não deve duplicar cadastro
+Resultado obtido:Sistema não duplicou o cadastro
+Status:Pass
 
 
 ID: CT17  
@@ -173,15 +150,9 @@ Passos:
 Dados de teste:
 CPF: 057a7278710
 
-Resultado esperado: 
-Sistema deve rejeitar o CPF
-
-Resultado obtido:
-Sistema rejeitou envio de CPF com Caracteres Alfabéticos
-
-Status:
-Pass
-
+Resultado esperado: Sistema deve rejeitar o CPF
+Resultado obtido:Sistema rejeitou envio de CPF com Caracteres Alfabéticos
+Status:Pass
 
 ID: CT18  
 Título: Validar CPF com mais de 11 dígitos 
@@ -197,14 +168,9 @@ Passos:
 Dados de teste:
 CPF: 057072787101
   
-Resultado esperado:  
-Sistema deve bloquear entrada inválida
-Resultado obtido: 
-Sistema exibi erro de validação de CPF "Oops! CPF inválido"
-
-Status:
-Pass
-
+Resultado esperado:  Sistema deve bloquear entrada inválida
+Resultado obtido: Sistema exibi erro de validação de CPF "Oops! CPF inválido"
+Status:Pass
 
 ID: CT19  
 Título: Validar email sem domínio  
@@ -222,7 +188,6 @@ Resultado esperado:  Sistema deve exibir erro
 Resultado obtido:  Sistema bloqueou entrada inválida com mensagem "insira uma parte depois de @"
 Status: PASS
 
-
 ID: CT20  
 Título: Validar nome contendo números  
 
@@ -239,7 +204,6 @@ Nome: 123Tereza Marlene Alícia Nogueira
 Resultado esperado: Sistema deve rejeitar
 Resultado obtido:  Sistema permitiu o cadastro com o campo "Nome" contendo números
 Status: FAIL
-
 
 ID: CT21  
 Título: Validar nome com 1 caractere  
@@ -261,7 +225,6 @@ Celular: 21998430065
 Resultado esperado: Sistema deve validar tamanho mínimo  
 Resultado obtido: Sistema permitiu cadastro com campo "Nome" com apenas um caractere
 Status: FAIL
-
 
 ID: CT22  
 Título: Validar campo número não preenchido  
@@ -304,7 +267,6 @@ Celular: 21998430065
   
 Resultado esperado: Sistema deve exibir erro
 Resultado obtido: Sistema registrou CEP como "Undfefined" mas permitiu cadastro com CEP inexistente
-
 Status: FAIL
 
 
@@ -327,11 +289,8 @@ Número: 346
 Celular: 21998430065  
 
 Resultado esperado:Sistema deve rejeitar
-
 Resultado obtido: Sistema rejeitou cadastro e emitiu mensagem "Informe um CEP válido"  
-
 Status: PASS
-
 
 ID: CT25  
 Título: Validar seleção de método de entrega  
@@ -353,10 +312,8 @@ Celular: 21998430065
 Método de entrega: Moto / Carro / Bicicleta
 
 Resultado esperado: Usuário deve conseguir selecionar opção
-
 Resultado obtido: Sistema permitiu seleção dos 3 métodos de entrega de forma simultânea
 Status: PASS
-
 
 ID: CT26  
 Título: Validar envio sem selecionar tipo de entrega  
@@ -379,7 +336,6 @@ Método de entrega: Não selecionar
 Resultado esperado: Sistema deve bloquear envio
 
 Resultado obtido: Sistema permitiu o cadastro mesmo sem selecionar o método de entrega, apesar de emitir mensagem solicitando que seja selecionado o método de entrega
-
 Status: FAIL
 
 
@@ -403,7 +359,6 @@ Método de entrega: Moto
 Upload Arquivo: .Doc
   
 Resultado esperado: Sistema deve rejeitar arquivo
-
 Resultado obtido: Sistema não permitiu prosseguir com o cadastro 
 Status: PASS
 
@@ -427,9 +382,7 @@ Método de entrega: Moto
 Upload Arquivo: Imagem da CNH
 
 Resultado esperado: Sistema deve bloquear envio
-
 Resultado obtido: Sistema bloqueou o cadastro, emitindo a mensagem 'Adicione uma foto da sua CNH' 
-
 Status: PASS
 
 
@@ -453,7 +406,6 @@ Upload Arquivo: Imagem da CNH
 
 Resultado esperado: Dados devem ser perdidos ou sistema tratar corretamente
 Resultado obtido: O sistema apagou os dados do formulário de forma correta.
-
 Status: PASS
 
 ID: CT30  
@@ -478,7 +430,6 @@ Upload Arquivo: Imagem da CNH
 
 Resultado esperado: Sistema não deve duplicar cadastro
 Resultado obtido: Sistema permitiu múltiplos cadastro com os mesmos dados
-
 Status: FAIL
 
 ID: CT31  
@@ -513,7 +464,6 @@ Passos:
    
 Resultado esperado: Usuário entende o erro facilmente
 Resultado Obtido: Todos os campos contém informações referente a forma como devem ser preenchidos
-
 Status: PASS
 
 ID: CT33  
@@ -538,9 +488,4 @@ Upload Arquivo: Imagem da CNH
 
 Resultado esperado: Resposta rápida (< 3s)
 Resultado Obtido: O tempos de resposta foi rápido (< 3s) 
-
 Status: PASS
-
-
-
-
