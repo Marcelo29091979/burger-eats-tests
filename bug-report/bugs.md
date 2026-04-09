@@ -126,7 +126,7 @@ Status: FAIL
 
 Evidência:
 
-![BUG-009](../evidencias/screenshots/BUG-009.png)
-![BUG-010](../evidencias/screenshots/BUG-010.png)
-![BUG-011](../evidencias/screenshots/BUG-011.png)
+![BUG-009](../evidencias/screenshots/BUG-009.PNG)
+![BUG-010](../evidencias/screenshots/BUG-010.PNG)
+![BUG-011](../evidencias/screenshots/BUG-011.PNG)
 
