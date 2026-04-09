@@ -481,26 +481,66 @@ Resultado obtido: Sistema permitiu múltiplos cadastro com os mesmos dados
 
 Status: FAIL
 
-
-
 ID: CT31  
 Título: Validar comportamento ao usar botão voltar  
 
-Resultado esperado:
-Sistema deve manter consistência
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
 
+Passos:
+1. Clicar no botão "Voltar para Home"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: Imagem da CNH
+
+Resultado esperado: Sistema deve manter consistência
+Resultado Obtido: sistema manteve consistência
+Status: PASS
 
 ID: CT32  
 Título: Validar clareza das mensagens  
 
-Resultado esperado:
-Usuário entende o erro facilmente
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
 
+Passos:
+1. Observar mensagens contidas nos campos do formulário
+   
+Resultado esperado: Usuário entende o erro facilmente
+Resultado Obtido: Todos os campos contém informações referente a forma como devem ser preenchidos
+
+Status: PASS
 
 ID: CT33  
 Título: Validar tempo de resposta do cadastro  
 
-Resultado esperado:
-Resposta rápida (< 3s)
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
+
+Passos:
+1. Preencher todos os campos corretamente
+2. Clicar no botão "Cadastre-se para fazer entregas"
+3. Observar o tempos de resposta do cadastro.
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: Imagem da CNH
+
+Resultado esperado: Resposta rápida (< 3s)
+Resultado Obtido: O tempos de resposta foi rápido (< 3s) 
+
+Status: PASS
+
+
 
 
