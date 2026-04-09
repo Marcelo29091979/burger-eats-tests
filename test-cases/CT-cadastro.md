@@ -409,9 +409,29 @@ Status: PASS
 
 ID: CT28  
 Título: Validar envio sem upload da CNH  
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa 
 
-Resultado esperado:
-Sistema deve bloquear envio
+Passos:
+1. Não Fazer o upload de arquivo de imagem referente a CNH  
+2. Preencher os demais campos corretamente
+3. Clicar em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: Imagem da CNH
+
+Resultado esperado: Sistema deve bloquear envio
+
+Resultado obtido: Sistema bloqueou o cadastro, emitindo a mensagem 'Adicione uma foto da sua CNH' 
+
+Status: PASS
+
 
 ID: CT29  
 Título: Validar comportamento ao atualizar página  
