@@ -25,14 +25,14 @@ Executar testes manuais baseados em requisitos funcionais de uma aplicação web
 - evidencias → prints
 
 ## 🐞 Bugs encontrados
-(Um)
+(07)
 
 ## 🚀 Resultado
 Projeto desenvolvido para prática de QA manual com foco em entrada no mercado.
 
 ## 📊 Execução de Testes
 
-- Casos executados: 18  
-- Casos aprovados: X  
-- Casos reprovados: X  
-- Bugs encontrados: X  
+- Casos executados: 33  
+- Casos aprovados: 26  
+- Casos reprovados: 7  
+- Bugs encontrados: 7  
