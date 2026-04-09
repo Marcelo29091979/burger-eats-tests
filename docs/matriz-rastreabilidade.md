@@ -14,7 +14,7 @@
 | RF10 | Obrigatoriedade do tipo de entrega | Alta | CT26 | FAIL | BUG-005 |
 | RF11 | Upload de CNH | Média | CT15, CT27, CT28 | PASS/FAIL | BUG-006 |
 | RF12 | Evitar múltiplos envios | Alta | CT16, CT30 | FAIL | BUG-007 |
-| RF13 | Comportamento ao atualizar página | Baixa | CT29 | PASS/FAIL | - |
+| RF13 | Comportamento ao atualizar página | Baixa | CT29 | PASS | - |
 | RF14 | Navegação (botão voltar) | Baixa | CT31 | PASS | - |
 | RF15 | Exibição de mensagens de erro | Alta | CT32 | PASS | - |
 | RF16 | Tempo de resposta do sistema | Média | CT33 | PASS | - |
