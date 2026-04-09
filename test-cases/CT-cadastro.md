@@ -385,9 +385,27 @@ Status: FAIL
 
 ID: CT27  
 Título: Validar upload de arquivo não imagem  
+Pré-condição: Usuário acessou o site Burger Eats e está na tela de cadastro com conexão ativa
 
-Resultado esperado:
-Sistema deve rejeitar arquivo
+Passos:
+1. Preencher os demais campos corretamente  
+2. Fazer upload de arquivo que não é uma imagem
+2. Clicar em "Cadastre-se para fazer entregas"
+
+Dados de teste:
+Nome: Tereza Marlene Alícia Nogueira
+CPF: 05707278710
+Email: tereza.marlene.nogueira@grupoaguaviva.com.br
+CEP: 0i2522-310
+Número: 346
+Celular: 21998430065 
+Método de entrega: Moto
+Upload Arquivo: .Doc
+  
+Resultado esperado: Sistema deve rejeitar arquivo
+
+Resultado obtido: Sistema não permitiu prosseguir com o cadastro 
+Status: PASS
 
 ID: CT28  
 Título: Validar envio sem upload da CNH  
